@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+    <style>
+        IMG.logo{
+            display:block;
+            margin-top: 200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        input{
+           
+            width: 350px;
+            height: 35px;
+            margin-top: 25px;
+            margin-left: 650px;
+            border-radius: 22px;
+            border-color: rgb(209, 209, 209);
+        }
+
+        #buttonContainer{
+            text-align: center;
+        }
+
+        #button1{
+            width: 100px;
+            height: 35px;
+            margin: 15px;
+            border-radius: 5px;
+            background-color: rgb(215, 217, 219);
+            display: inline;
+            
+        }
+
+        #button2{
+            width: 100px;
+            height: 35px;
+            margin: 15px;
+            border-radius: 5px;
+            background-color: rgb(215, 217, 219);
+            display: inline;
+        }
+
+        #signin{
+            padding: 14px 16px;
+            background-color: blue;
+            color: white;
+        }
+
+        li{
+            float: left;
+        }
+
+        li a{
+            display:block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            color: black;
+        }
+
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow:hidden;
+        }
+
+        #foot{
+            position: fixed;
+            bottom: 0;
+            background-color: lightgray;
+            opacity: .5;
+            width: 100%;
+        }
+        
+    </style>
+    <header>
+        <ul>
+            <li><a href="About">About</a></li>
+            <li><a href="Store">Store</a></li>
+            <button type="button" style="float: right;" id="signin">Sign In</button>
+            <li style="float:right"><a href="Images">Images</a></li>
+            <li style="float:right"> <a href="Gmail">Gmail</a></li>
+           
+            
+        </ul>
+    </header>
+    <body>
+
+        <div>
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
+        </div>
+    
+        <div id="searchbar">
+            <input type="text" id="search"  alt="SearchBar" size="50">
+            
+        </div>
+
+        <div id="buttonContainer">
+            <button type="button" id="button1">Google Search</button>
+            <button type="button" id="button2">I'm Feeling Lucky</button>
+        </div>
+
+    </body>
+
+
+    <footer id="foot">
+
+        <ul>
+            <li><a href="Advertising">Advertising</a></li>
+            <li><a href="Business">Business</a></li>
+            <li><a href="Howto">How Search Works</a></li>
+            <li style="float:right"><a href="Privacy">Privacy</a></li>
+            <li style="float:right"><a href="Terms">Terms</a></li>
+            <li style="float:right"><a href="Settings">Settings</a></li>
+        </ul>
+        
+    </footer>
+
+</html>
